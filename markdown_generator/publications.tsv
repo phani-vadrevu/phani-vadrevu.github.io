@@ -1,4 +1,5 @@
-pub_date	title	venue	excerpt	citation	url_slug	paper_url
-2009-10-01	Paper Title Number 1	Journal 1	This paper is about the number 1. The number 2 is left for future work.	Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).	paper-title-number-1	http://academicpages.github.io/files/paper1.pdf
-2010-10-01	Paper Title Number 2	Journal 1	This paper is about the number 2. The number 3 is left for future work.	Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).	paper-title-number-2	http://academicpages.github.io/files/paper2.pdf
-2015-10-01	Paper Title Number 3	Journal 1	This paper is about the number 3. The number 4 is left for future work.	Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).	paper-title-number-3	http://academicpages.github.io/files/paper3.pdf
+authors	pub_year	title	conference	location	paper_url	accepted	submitted
+Phani Vadrevu, Babak Rahbarinia, Roberto Perdisci, Kang Li, Manos Antonakakis	2013	Measuring and detecting malware downloads in live network traffic	European Symposium on Research in Computer Security (ESORICS)	Egham, U.K.	/files/papers/amico.pdf	43	242
+Phani Vadrevu, Roberto Perdisci	2016	MAXS: Scaling malware execution with sequential multi-hypothesis testing	11th ACM on Asia Conference on Computer and Communications Security (AsiaCCS)	Xi'an, China	/files/papers/maxs.pdf	73	350
+Phani Vadrevu, Jienan Liu, Bo Li, Babak Rahbarinia, Kyu Hyung Lee, Roberto Perdisci	2017	Enabling Reconstruction of Attacks on Users via Efficient Browsing Snapshots	24th Annual Network and Distributed System Security Symposium (NDSS)	San Diego, U.S.A.	/files/papers/chromepic.pdf	68	423
+Bo Li, Phani Vadrevu, Kyu Hyung Lee, Roberto Perdisci	2018	JSgraph: Enabling Reconstruction of Web Attacks via Efficient Tracking of Live In-Browser JavaScript Executions	25th Annual Network and Distributed System Security Symposium (NDSS)	San Diego, U.S.A.	/files/papers/jsgraph.pdf	71	331
