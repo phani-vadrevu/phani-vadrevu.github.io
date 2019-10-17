@@ -11,4 +11,4 @@ accepted: '38'
 submitted: '197'
 paper_url: '/files/papers/seacma.pdf'
 ---
-[To appear]
+[Download paper here](/files/papers/seacma.pdf)
