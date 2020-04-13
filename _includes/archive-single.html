@@ -49,10 +49,16 @@
           {% endfor %}
           <br>
           {{ post.conference}} <br>
-          {{ post.location }} {{ post.year }} <br>
-          {% assign accept = post.accepted | plus: 0.0 %}
-          {% assign submit = post.submitted | plus: 0.0 %}
-          Acceptance Rate: {{ post.accepted }} / {{ post.submitted }}  ({{ accept | divided_by: submit | times: 100.0 | round: 1 }}%)
+          {% if post.location != '-' %}
+            {{ post.location }} {{ post.year }} <br>
+          {% else %} 
+            {{ post.year }} <br>
+          {% endif %}
+          {% if post.accepted != '-' %}
+            {% assign accept = post.accepted | plus: 0.0 %}
+            {% assign submit = post.submitted | plus: 0.0 %}
+            Acceptance Rate: {{ post.accepted }} / {{ post.submitted }}  ({{ accept | divided_by: submit | times: 100.0 | round: 1 }}%)
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
