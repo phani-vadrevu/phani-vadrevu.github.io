@@ -40,7 +40,7 @@
         {% elsif post.collection == 'publications' %}
           {% for author in post.authors %}
             {% if author == site.name %}
-              <u> {{ author }} </u>
+              <u>{{ author }}</u>
             {% else %}
               {{ author }}
             {% endif %}
