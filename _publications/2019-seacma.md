@@ -1,10 +1,9 @@
 ---
-title: "What You See is NOT What You Get: Discovering and Tracking Ad-Driven Social Engineering
-Attack Campaigns"
+title: "What You See is NOT What You Get: Discovering and Tracking Ad-Driven Social Engineering 10 Attack Campaigns"
 collection: publications
 permalink: /publication/2019-seacma
 year: 2019
-conference: '19th ACM Internet Measurement Conference'
+conference: '19th ACM Internet Measurement Conference (IMC)'
 authors: ['Phani Vadrevu', 'Roberto Perdisci']
 location: 'Amsterdam, Netherlands'
 accepted: '38'
