@@ -76,7 +76,8 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    <a href=" {{ post.paperurl }} "> <img alt='Link to PDF' src='files/icons/pdf_icon.svg' height='25%'> </a>
+      <!--<p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>-->
     {% endif %}
     {% endcomment %}
 
