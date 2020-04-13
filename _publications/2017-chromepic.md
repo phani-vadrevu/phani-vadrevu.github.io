@@ -10,4 +10,3 @@ accepted: '68'
 submitted: '423'
 paper_url: '/files/papers/chromepic.pdf'
 ---
-[Download paper here](/files/papers/chromepic.pdf)

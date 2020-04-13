@@ -10,4 +10,3 @@ accepted: '43'
 submitted: '242'
 paper_url: '/files/papers/amico.pdf'
 ---
-[Download paper here](/files/papers/amico.pdf)

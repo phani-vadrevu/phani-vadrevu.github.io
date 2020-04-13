@@ -10,4 +10,3 @@ accepted: '71'
 submitted: '331'
 paper_url: '/files/papers/jsgraph.pdf'
 ---
-[Download paper here](/files/papers/jsgraph.pdf)

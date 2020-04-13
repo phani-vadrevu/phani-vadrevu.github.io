@@ -10,4 +10,3 @@ accepted: '-'
 submitted: '-'
 paper_url: '/files/papers/pushads.pdf'
 ---
-[Download paper here](/files/papers/pushads.pdf)
