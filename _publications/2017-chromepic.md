@@ -9,4 +9,5 @@ location: 'San Diego, U.S.A.'
 accepted: '68'
 submitted: '423'
 paper_url: '/files/papers/chromepic.pdf'
+video_url: 'https://www.youtube.com/watch?v=iIgTjHr1w0o'
 ---

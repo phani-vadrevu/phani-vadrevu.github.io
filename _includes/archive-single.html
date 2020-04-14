@@ -40,9 +40,9 @@
         {% elsif post.collection == 'publications' %}
           {% for author in post.authors %}
             {% if author == site.name %}
-              <u>{{ author }}</u>
+              <u>{{author}}</u>
             {% else %}
-              {{ author }}
+              {{author}}
             {% endif %}
             {% if forloop.last != true %}
               {{ ", " }}
@@ -80,7 +80,10 @@
     {% endcomment %}
 
     {% if post.paper_url %}
-    <a href=" {{ post.paper_url }} "> <img alt='Link to PDF' src='/files/icons/pdf_icon.svg' height='24' width='24'> </a>
+    <a href=" {{ post.paper_url }} " style="padding-right:10px;"> <img alt='Link to PDF' src='/files/icons/pdf_icon.svg' height='22' width='22'> </a>
+    {% endif %}
+    {% if post.video_url %}
+    <a href=" {{ post.video_url }} " style="padding-right:10px;"> <img alt='Link to presentation video' src='/files/icons/video_icon.svg' height='28' width='28'> </a>
     {% endif %}
 
   </article>

@@ -9,4 +9,5 @@ location: 'San Diego, U.S.A.'
 accepted: '71'
 submitted: '331'
 paper_url: '/files/papers/jsgraph.pdf'
+video_url: 'https://www.youtube.com/watch?v=pZU1RIxTMUs'
 ---

@@ -9,4 +9,5 @@ location: 'Amsterdam, Netherlands'
 accepted: '38'
 submitted: '197'
 paper_url: '/files/papers/seacma.pdf'
+video_url: 'https://vimeo.com/showcase/6531379/video/369121670#t=3018s'
 ---
