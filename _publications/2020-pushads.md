@@ -9,4 +9,5 @@ location: 'Pittsburgh, U.S.'
 accepted: '53'
 submitted: '216'
 paper_url: '/files/papers/pushads.pdf'
+video_url: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3419394.3423631&file=imc2020-107-long.mp4'
 ---

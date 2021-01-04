@@ -63,10 +63,12 @@ def html_escape(text):
 
 import os
 for row, item in publications.iterrows():
-    
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
+    print "item:", item
+    url_slug = os.path.basename(item.paper_url).split('.')[0]
+    print "url:", url_slug
+    md_filename = str(item.pub_year) + "-" + url_slug + ".md"
+    html_filename = str(item.pub_year) + "-" + url_slug
+    #year = item.pub_date[:4]
     
     ## YAML variables
     
@@ -76,10 +78,11 @@ for row, item in publications.iterrows():
     
     md += """\npermalink: /publication/""" + html_filename
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    # if len(str(item.excerpt)) > 5:
+        # md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
+    #md += "\ndate: " + str(item.pub_date) 
+    md += "\nyear: " + str(item.pub_year) 
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
@@ -99,7 +102,10 @@ for row, item in publications.iterrows():
         md += "\n" + html_escape(item.excerpt) + "\n"
         
     md += "\nRecommended citation: " + item.citation
-    
+
+    print "md:" + md
+    break 
+
     md_filename = os.path.basename(md_filename)
        
     with open("../_publications/" + md_filename, 'w') as f:
