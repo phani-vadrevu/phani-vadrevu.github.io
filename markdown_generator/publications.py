@@ -1,3 +1,5 @@
+####  PHANI: DON'T USE THIS - USE THE JUPYTER NOTEBOOK
+####
 
 # coding: utf-8
 
@@ -63,9 +65,9 @@ def html_escape(text):
 
 import os
 for row, item in publications.iterrows():
-    print "item:", item
+    print("item: " + str(item))
     url_slug = os.path.basename(item.paper_url).split('.')[0]
-    print "url:", url_slug
+    print("url:" + url_slug)
     md_filename = str(item.pub_year) + "-" + url_slug + ".md"
     html_filename = str(item.pub_year) + "-" + url_slug
     #year = item.pub_date[:4]
@@ -84,7 +86,7 @@ for row, item in publications.iterrows():
     #md += "\ndate: " + str(item.pub_date) 
     md += "\nyear: " + str(item.pub_year) 
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+    md += "\nvenue: '" + html_escape(item.location) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
@@ -103,7 +105,7 @@ for row, item in publications.iterrows():
         
     md += "\nRecommended citation: " + item.citation
 
-    print "md:" + md
+    print("md:" + md)
     break 
 
     md_filename = os.path.basename(md_filename)
