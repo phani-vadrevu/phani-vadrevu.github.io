@@ -1,5 +1,5 @@
 ---
-title: "Measuring Abuse in Web Push Advertising"
+title: "When Push Comes to Ads: Measuring the Rise of (Malicious) Push Advertising"
 collection: publications
 permalink: /publication/2020-pushads
 year: 2020
