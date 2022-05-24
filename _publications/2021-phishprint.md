@@ -6,8 +6,8 @@ year: 2021
 conference: '30th USENIX Security Symposium (USENIX Security)'
 authors: ['Bhupendra Acharya', 'Phani Vadrevu']
 location: 'Virtual'
-accepted: '-'
-submitted: '-'
+accepted: '246'
+submitted: '1316'
 paper_url: '/files/papers/phishprint.pdf'
 video_url: 'https://www.usenix.org/conference/usenixsecurity21/presentation/acharya'
 ---
