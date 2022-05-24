@@ -8,5 +8,5 @@ authors: ['Bhupendra Acharya', 'Phani Vadrevu']
 location: 'Cagliari, Italy'
 accepted: '11'
 submitted: '39'
-paper_url: '/files/paper/ape_humans.pdf'
+paper_url: '/files/papers/ape_humans.pdf'
 ---
