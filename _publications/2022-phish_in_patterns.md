@@ -9,4 +9,5 @@ location: 'Nice, France'
 accepted: '56'
 submitted: '212'
 paper_url: '/files/papers/phish_in_patterns.pdf'
+video_url: 'https://dl.acm.org/doi/10.1145/3517745.3561467'
 ---
