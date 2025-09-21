@@ -1,9 +1,9 @@
 ---
-title: "The ACM Web Conference (formerly, WWW) 2025"
+title: "Breaking the Shield: Analyzing and Attacking Canvas Fingerprinting Defenses in the in-the-wild"
 collection: publications
 permalink: /publication/2025-canvas_fp
 year: 2025
-conference: 'Breaking the Shield: Analyzing and Attacking Canvas Fingerprinting Defenses in the in-the-wild'
+conference: 'The ACM Web Conference (formerly, WWW) 2025'
 authors: ['Hoang Dai Nguyen', 'Phani Vadrevu']
 location: 'Sydney, Australia'
 accepted: '409'
