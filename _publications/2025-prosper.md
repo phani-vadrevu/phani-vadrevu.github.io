@@ -9,4 +9,5 @@ location: 'Seattle, U.S.A.'
 accepted: '442'
 submitted: '2400'
 paper_url: '/files/papers/prosper.pdf '
+video_url: 'https://www.youtube.com/watch?v=c0A3nUs9Abc'
 ---
